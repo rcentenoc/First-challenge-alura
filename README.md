@@ -8,7 +8,9 @@
 
 ## 📸 Demo
 
-![Demo Amigo Secreto](src/assets/amigo-secreto.png)
+[
+  ![Demo Amigo Secreto](src/assets/amigo-secreto.png)
+](https://rcentenoc.github.io/First-challenge-alura/)
 
 ---
 
