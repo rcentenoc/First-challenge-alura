@@ -55,7 +55,7 @@ export default function App() {
             <main className="flex-grow bg-blue-600 text-gray-800">
                 {/* Header */}
                 <header className="flex flex-col items-center justify-center py-8 px-4">
-                    <img src={amigoImg} alt="Amigo secreto" className="h-90 " />
+                    <img src={amigoImg} alt="Amigo secreto" className="h-50 sm:h-90" />
                     <div className="flex flex-col sm:flex-row gap-4 mt-2 max-w-xs justify-center">
                         <button
                             onClick={sortearAmigo}
