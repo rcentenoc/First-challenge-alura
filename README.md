@@ -1,12 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🎁 Amigo Secreto App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Una aplicación web para gestionar sorteos de "Amigo Secreto". Permite añadir participantes, realizar sorteos de un ganador o formar parejas aleatorias. Interfaz responsiva y atractiva, desarrollada con **React** y **Tailwind CSS**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Demo
+
+![Demo Amigo Secreto](src/assets/amigo-secreto.png)
+
+---
+
+## ✨ Características
+
+- Añade y elimina participantes fácilmente
+- Sortea un ganador aleatorio
+- Forma parejas aleatorias entre los participantes
+- Interfaz responsiva y moderna
+- Desarrollado con React, Vite y Tailwind CSS
+
+---
+
+## 🚀 Instalación y uso
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/tuusuario/amigo-secreto.git
+   cd amigo-secreto
+   ```
+2. **Instala las dependencias:**
+   ```bash
+   npm install
+   ```
+3. **Inicia el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+4. Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+amigo-secreto/
+│
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   ├── amigo-secreto.png
+│   │   ├── logo.png
+│   │   └── react.svg
+│   │
+│   ├── components/
+│   │   ├── App.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
+│   │   └── SecretFriend.jsx
+│   │
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+```
+
+---
+
+## 🤝 Créditos
+
+Desarrollado por [R. Fabricio Centeno Cardenas](https://github.com/rcentenoc) para el reto de Alura ONE.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT.

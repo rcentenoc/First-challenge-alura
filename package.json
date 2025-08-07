@@ -1,8 +1,11 @@
 {
-  "name": "amigo-secreto",
+  "name": "secret-friend-draw",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "Web application for secret friend draws.",
+  "author": "R. Fabricio Centeno Cardenas",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
